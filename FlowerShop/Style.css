@@ -1,0 +1,285 @@
+﻿body {
+ font-family:Arial, Helvetica, sans-serif;      /*style for body*/
+    
+}
+.border {
+    border: 1px solid grey;                     /*style for form to have border*/    
+    max-width: 800px;
+    margin: auto;
+    font-size:14px;
+}
+.header                                         /*style for header text*/ 
+{   
+  color: #034072;   
+  text-shadow: 0 0 3px #8deff9;  
+  margin-top: 20px;
+  margin-bottom :20px;    
+}
+.footer {                                       /*style for footer text*/ 
+  background-color: #9ece11; 
+  padding: 2px;
+  text-align: center;
+  color: #034072;
+  text-shadow: 0 0 3px #8deff9;  
+}
+.hr {                                           /*style for header line*/ 
+width: auto;
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+border: 0 none;
+margin-top: 0px;
+margin-bottom:0px;
+background-color: #9ece11;
+
+}
+.line{                                          /*style for footer line*/ 
+  
+height: 4px;
+border: 0 none;
+margin-top: 0px;
+margin-bottom:0px;
+background-color: #9ece11;
+
+}
+.help{
+margin-left: 41%; margin-top: 1%; font-size:12px;        /*style for refund text*/ 
+color: #034072;
+}
+/*.cardTag{
+    width: auto;
+height: 30px;
+margin-left: 2px;
+margin-right: 2px;
+border: 0 none;
+margin-top: 0px;
+margin-bottom:0px;
+background-color: #9ece11;
+}*/
+.image{                                              /*style for flower image*/ 
+    content:url('Image/img.png');
+    height:180px;
+    align-content:center;
+    padding-left: 4px 7px 2px 4px;
+    width: 186px;
+}
+.visa{                                              /*style for visa image*/ 
+    width: 60px;
+    height:50px;
+    align-content: initial;
+    padding: 4px 7px 2px 4px;
+    border: 1px solid grey;
+    margin-top:-75px;
+    margin-left:5px;
+}
+.question{                                          /*style for first question image*/ 
+    width: 2.6%;
+    height:2.2%;
+    margin-top:195px;
+    margin-left:1%;    
+}
+
+.question2{                                          /*style for second question image*/ 
+    width: 2.6%;
+    height:2.2%;
+    margin-top:-575px; 
+    margin-left:93%;   
+}
+.start                                               /*style for start image*/ 
+{
+    width: 4%;
+    height:4%;      
+    margin-left:-45%;
+    float:left; 
+}
+.cancel                                             /*style for cancel image*/
+{
+    width: 4%;
+    height:4%;  
+        
+}
+.Payment{                                           /*style for payment image*/
+    width: 10%;
+    height:10%;    
+    float:right;
+    margin-left:55%; 
+    margin-top: -6%;    
+}
+.h3{
+    color: #034072;
+}
+.title{                                             /*style for body title*/
+  color: #034072;   
+  text-shadow: 0 0 3px #8deff9;  
+  margin-top: 20px;
+  margin-bottom :20px;
+  padding-right: 3em; 
+  float:right;
+  width: 459px;
+  margin-left: 15px;
+}
+
+.content
+{
+    background-color: #fccc9e;
+}
+
+
+
+/*.row{    
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.column1 {
+  
+  width: 30%;
+  float:left;
+  height:auto;
+}
+.column2 {
+  padding-right: 5em;
+  width: 19%;
+  float:left;
+  height:auto;
+}
+.column3 {
+  
+  width: 40%;
+  float:left;
+  height:auto;
+}*/
+
+
+
+.navigation                                             /*style for column seperation*/
+{
+    float: left;
+    width: 32%; 
+    height:auto;
+    z-index:99;
+    overflow:hidden; 
+    /*position:inherit;*/  
+}
+.section 
+{
+    float: left;
+    width: 60%;
+    height:auto;
+     z-index:99;
+     overflow:hidden;     
+     /*position:inherit;*/ 
+}
+.part:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+  .navigation, .section {
+    width: 100%;
+    height: auto;
+    z-index:99;
+    overflow:hidden;
+  }
+}
+.alignment {                            /*style for aligning each text box*/
+    margin-top: 0.15%;
+    height: 2.6999%;
+    width: 15%;
+    position:absolute; 
+    margin-right: 29%;
+    right: 60px;
+    align-content:center;
+    resize:both;  
+    margin-bottom:0%;  
+    /*position:inherit;*/ 
+}
+.alignLang{
+    margin-top: 0.2%;
+    margin-bottom:0%;
+    height: 3.5%;
+}
+.alignNum{
+    width: 18%;
+    height: 2.6%;
+    border:1px solid skyblue;
+    margin-right: 25%;
+}
+.alignCode{
+    width: 6%;
+    height: 2.6%;
+    border:1px solid skyblue;
+    margin-right: 37%;
+}
+.alignName{
+    width: 18%;
+    height: 2.6%;
+    border:1px solid skyblue;
+    margin-right: 25%;
+}
+.alignAdd{
+    width: 18%;
+    height: 2.6%;
+    border:1px solid skyblue;
+    margin-right: 25%;
+}
+
+.alignXtra{
+    width: 8%;
+    height: 2.6%;
+    border:1px solid skyblue;
+    margin-right: 35%;
+}
+.alignCountry{
+    width: 10%;
+    height: 3.5%;
+    border:1px solid skyblue;
+    margin-right: -3.3%;
+}
+.alignYear{
+    margin-top: 2.5px;
+    width: 60px;
+    position: absolute;
+    right: 39%;
+    resize:both;
+    border:1px solid skyblue;
+    /*position:inherit;*/ 
+}
+.alignMonth{
+    margin-top: 2.5px;
+    width: 50px;
+    position: absolute;
+    right: 43.9%;
+    resize:both;
+     border:1px solid skyblue;
+    /*position:inherit;*/ 
+}
+
+.alignCountry{
+    margin-top: 2.5px;
+    width: 13%;
+    position: absolute;
+    right: 510px;
+    resize:both;
+    /*position:inherit;*/ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
